@@ -9,7 +9,8 @@
 
 int main(int argc, char **argv)
 {
-    char buf[4000] = "C:/cygwin64/bin/bash -c 'git-wrapper";
+    //char buf[4000] = "C:/cygwin64/bin/bash -c 'git-wrapper";
+    char buf[4000] = "C:/Users/Administrator/.babun/cygwin/bin/bash -c 'git-wrapper";
     int rest = sizeof(buf) - strlen(buf) - 2; /* 2 for "'\0" */
 
     for (int i = 1; i < argc; i++) {
